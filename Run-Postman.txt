@@ -1,0 +1,28 @@
+ Laravel 10, you might need to install a specific version of Passport like this:
+
+1>Check Laravel Version Compatibility:
+you might need to install a specific version of Passport like this:
+composer require laravel/passport:^11.0
+
+2>Update Your Composer Dependencies:
+Composer dependencies can resolve version conflicts. Run the following command to update:
+composer update
+
+3>installing Passport with the --with-all-dependencies option. This option allows Composer to upgrade packages that your project depends on to resolve version conflicts.
+composer require laravel/passport --with-all-dependencies
+
+4>Clear Composer Cache:
+Sometimes, clearing the Composer cache can help resolve issues. Run:
+
+--------------------------------------------------------------------------------
+Run code on Postman:-
+
+1> Register Page-
+http://127.0.0.1:8000/api/register
+
+2>Login page
+http://127.0.0.1:8000/api/login
+
+3>Authorization for User-login
+http://127.0.0.1:8000/api/get-user
+
